@@ -14,8 +14,9 @@ times.sort()
 print(times)
 
 # d) em que posição esta Holanda
-posicao_holanda = times.index("Holanda")
-print("Holanda está na posição:", posicao_holanda)
+# posicao_holanda = times.index("Holanda")
+# print("Holanda está na posição:", posicao_holanda)
+print("Holanda está na posição:", times.index("Holanda"))
 
 
 # Exercicio 2 

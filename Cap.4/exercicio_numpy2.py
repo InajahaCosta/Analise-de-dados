@@ -12,7 +12,7 @@ np.random.seed(10)
 mtz = np.random.randint(1, 50, 16).reshape(4, 4) #gerando a matriz 4x4 de 1 a 50
 print(mtz)
 
-#Ex3
+# #Ex3
 mediaLinha = mtz.mean(axis=1) #faz a media de cada linha (axis=1)
 print(mediaLinha)
 mediaColuna = mtz.mean(axis=0) #faz a media de cada coluna (axis=0)
